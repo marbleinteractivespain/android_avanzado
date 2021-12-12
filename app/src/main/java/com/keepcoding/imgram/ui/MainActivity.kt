@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
 
 
         with(binding){
-            bottomNavigationView.setItemIconTintList(null)
             bottomNavigationView.setOnItemSelectedListener(object: NavigationBarView.OnItemSelectedListener {
                 override fun onNavigationItemSelected(item: MenuItem): Boolean {
 
@@ -48,7 +47,7 @@ class MainActivity : AppCompatActivity() {
                         }
                     }
 
-                    return false
+                    return true
                 }
 
             })
