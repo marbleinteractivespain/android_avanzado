@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TheMovieDB APP</string>
+    <string name="menu_tv_shows_label">Tv Shows</string>
+    <string name="menu_movies_label">Movies</string>
+</resources>
